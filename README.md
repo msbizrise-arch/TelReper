@@ -1,37 +1,37 @@
-# ╔════════════════════════════════════════════════════════════╗
-# ║                  WELCOME TO "MS RISE"                      ║
-# ╚════════════════════════════════════════════════════════════╝
+# ╔══════════════════════════╗
+# ║         WELCOME TO MS RISE 🚀             ║
+# ╚══════════════════════════╝
 
               Telegram ID: https://t.me/SmartBoy_ApnaMS
            Join karo bhai, daily updates aur cool stuff milenge 🔥
 
-# ╔════════════════════════════════════════════════════════════╗
-# ║                       MS BRO REPORTER                      ║
-# ╚════════════════════════════════════════════════════════════╝
+# ╔══════════════════════════╗
+# ║             MS BRO REPORTER         
+# ╚══════════════════════════╝
 
 {Fore.CYAN}
-   ── __ ── __ ── __ ── __ ── __ ── __ ──
-  │  \/  \/  \/  \/  \/  \/  \/  \/  │
-  │  /\  /\  /\  /\  /\  /\  /\  /\  │
-  │  \/  \/  \/  \/  \/  \/  \/  \/  │
-  │__/\__/\__/\__/\__/\__/\__/\__/\__│
+  __  __ ____     ____  ____   ___
+ |  \\/  / ___|   | __ )|  _ \\ / _ \\
+ | |\\/| \\___ \\   |  _ \\| |_) | | | |
+ | |  | |___) |  | |_) |  _ <| |_| |
+ |_|  |_|____/   |____/|_| \\_\\\\___/
 {Fore.RESET}
 
 {Fore.MAGENTA}Advanced Telegram Reporter{Fore.RESET} by {Fore.YELLOW}Smarty MS{Fore.RESET}
 {Fore.WHITE}Use --help : python3 {Fore.LIGHTBLUE_EX}{argv[0]}{Fore.RESET} --help
 
-{Fore.YELLOW}═══════════════════════════════════════════════════════════════{Fore.RESET}
+{Fore.YELLOW}═════════════════════{Fore.RESET}
 
-# ╔════════════════════════════════════════════════════════════╗
-# ║                      FEATURES & USAGE                      ║
-# ╚════════════════════════════════════════════════════════════╝
+# ╔═══════════════════════╗
+# ║        FEATURES & USAGE              ║
+# ╚═══════════════════════╝
 
 This tool allows reporting Telegram channels/groups/accounts using multiple sessions.
 Educational purpose only — misuse can lead to account bans.
 
-# ╔════════════════════════════════════════════════════════════╗
-# ║                        COMMANDS                            ║
-# ╚════════════════════════════════════════════════════════════╝
+# ╔══════════════════╗
+# ║          COMMANDS            ║
+# ╚══════════════════╝
 
 -an  --add-number NUMBER
     → Naya account add karo (phone number +country code ke saath)
@@ -67,9 +67,9 @@ Educational purpose only — misuse can lead to account bans.
 -h   --help
     → Yeh pura help menu dekhne ke liye
 
-# ╔════════════════════════════════════════════════════════════╗
-# ║                     FULL EXAMPLE COMMAND                   ║
-# ╚════════════════════════════════════════════════════════════╝
+# ╔══════════════════╗
+# ║     FULL EXAMPLE COMMAND     ║
+# ╚══════════════════╝
 
 python3 reper.py -r 1000 -t examplechannel -m spam -msg "Yeh channel spam faila raha hai"
 
@@ -79,9 +79,9 @@ Matlab:
 - Reason: spam
 - Extra message: "Yeh channel spam faila raha hai"
 
-# ╔════════════════════════════════════════════════════════════╗
-# ║                        IMPORTANT TIPS                      ║
-# ╚════════════════════════════════════════════════════════════╝
+# ╔═════════════════╗
+# ║      IMPORTANT TIPS        ║
+# ╚═════════════════╝
 
 • Pehle kam se kam 1–2 accounts add kar lo (-an se)
 • Zyada reports (10000+) ek baar mein mat karna — flood wait ya ban ho jayega
@@ -89,9 +89,9 @@ Matlab:
 • Yeh tool sirf educational/testing ke liye hai
 • Real mein mass report karna Telegram ke rules ke khilaaf hai
 
-# ╔════════════════════════════════════════════════════════════╗
-# ║                     FROM THE DEVELOPER                     ║
-# ╚════════════════════════════════════════════════════════════╝
+# ╔═════════════════╗
+# ║      FROM THE DEVELOPER    ║
+# ╚═════════════════╝
 
 "Code is poetry, but poetry written in bugs and coffee."  
 — Smarty MS
