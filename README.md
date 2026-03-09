@@ -1,192 +1,102 @@
-# TelReper - Telegram Channel Reporter
+# ╔════════════════════════════════════════════════════════════╗
+# ║                  WELCOME TO "MS RISE"                      ║
+# ╚════════════════════════════════════════════════════════════╝
 
-A Python tool for reporting Telegram channels that violate Telegram's Terms of Service using multiple accounts simultaneously.
+              Telegram ID: https://t.me/SmartBoy_ApnaMS
+           Join karo bhai, daily updates aur cool stuff milenge 🔥
 
-## ⚠️ Disclaimer
+# ╔════════════════════════════════════════════════════════════╗
+# ║                       MS BRO REPORTER                      ║
+# ╚════════════════════════════════════════════════════════════╝
 
-This tool is intended for legitimate reporting of channels that violate Telegram's Terms of Service. **Do not use this tool for harassment, spam, or malicious purposes.** The authors are not responsible for any misuse of this software. Use responsibly and in accordance with Telegram's Terms of Service.
+{Fore.CYAN}
+   ── __ ── __ ── __ ── __ ── __ ── __ ──
+  │  \/  \/  \/  \/  \/  \/  \/  \/  │
+  │  /\  /\  /\  /\  /\  /\  /\  /\  │
+  │  \/  \/  \/  \/  \/  \/  \/  \/  │
+  │__/\__/\__/\__/\__/\__/\__/\__/\__│
+{Fore.RESET}
 
-## 🚀 Features
+{Fore.MAGENTA}Advanced Telegram Reporter{Fore.RESET} by {Fore.YELLOW}Smarty MS{Fore.RESET}
+{Fore.WHITE}Use --help : python3 {Fore.LIGHTBLUE_EX}{argv[0]}{Fore.RESET} --help
 
-- **Multi-account support**: Add and manage multiple Telegram accounts
-- **Batch reporting**: Report channels using all configured accounts simultaneously
-- **Multiple report reasons**: Support for various violation types (spam, violence, etc.)
-- **Session management**: Secure session storage for persistent logins
-- **Colorized output**: Easy-to-read console output with color coding
-- **Error handling**: Robust error handling for network issues and invalid inputs
+{Fore.YELLOW}═══════════════════════════════════════════════════════════════{Fore.RESET}
 
-## 📋 Requirements
+# ╔════════════════════════════════════════════════════════════╗
+# ║                      FEATURES & USAGE                      ║
+# ╚════════════════════════════════════════════════════════════╝
 
-- Python 3.7 or higher
-- Telegram API credentials (api_id and api_hash)
-- Valid Telegram account(s) with phone numbers
+This tool allows reporting Telegram channels/groups/accounts using multiple sessions.
+Educational purpose only — misuse can lead to account bans.
 
-## 🛠️ Installation
+# ╔════════════════════════════════════════════════════════════╗
+# ║                        COMMANDS                            ║
+# ╚════════════════════════════════════════════════════════════╝
 
-### Termux (Android)
-```bash
-apt update && apt upgrade
-pkg install python3 python3-pip git -y
-git clone https://github.com/Mr3rf1/TelReper
-cd TelReper
-pip3 install telethon colorama
-python3 reper.py
-```
+-an  --add-number NUMBER
+    → Naya account add karo (phone number +country code ke saath)
+    Example:
+    python3 reper.py -an +919876543210
 
-### Linux (Ubuntu/Debian)
-```bash
-sudo apt update && sudo apt upgrade
-sudo apt install python3 python3-pip git -y
-git clone https://github.com/Mr3rf1/TelReper
-cd TelReper
-pip3 install telethon colorama
-python3 reper.py
-```
+-r   --run COUNT
+    → Ek account se kitni reports bhejni hain
+    Example: -r 500 (500 reports per account)
 
-### Windows
-1. Install Python 3.7+ from [python.org](https://python.org)
-2. Download or clone this repository
-3. Open Command Prompt/PowerShell in the project directory
-4. Run:
-   ```cmd
-   pip install telethon colorama
-   python reper.py
-   ```
+-t   --target USERNAME
+    → Kis channel/group ko report karna hai (bina @ ke)
+    Example: -t badchannel
 
-## 🔧 Setup
+-m   --mode REASON
+    → Report ka reason choose karo
+    Available reasons:
+      • spam
+      • fake_account
+      • violence
+      • child_abuse
+      • pornography
+      • geoirrelevant
 
-1. **Get Telegram API credentials:**
-   - Go to [my.telegram.org](https://my.telegram.org)
-   - Log in with your phone number
-   - Go to "API Development Tools"
-   - Create a new application
-   - Copy your `api_id` and `api_hash`
+-msg --message "TEXT"
+    → Report ke saath custom message (optional)
+    Default: "This content violates Telegram rules"
+    Example: -msg "Bahut spam faila raha hai"
 
-2. **Update API credentials:**
-   - Open `reper.py`
-   - Replace the `api_id` and `api_hash` values with your credentials:
-   ```python
-   api_id = YOUR_API_ID
-   api_hash = 'YOUR_API_HASH'
-   ```
+-re  --reasons
+    → Sab possible report reasons ki list dekhne ke liye
 
-## 📖 Usage
+-h   --help
+    → Yeh pura help menu dekhne ke liye
 
-### Adding Accounts
+# ╔════════════════════════════════════════════════════════════╗
+# ║                     FULL EXAMPLE COMMAND                   ║
+# ╚════════════════════════════════════════════════════════════╝
 
-Before reporting, you need to add at least one Telegram account:
+python3 reper.py -r 1000 -t examplechannel -m spam -msg "Yeh channel spam faila raha hai"
 
-```bash
-python reper.py -an +1234567890
-```
+Matlab:
+- 1000 reports bhejega
+- Target: @examplechannel
+- Reason: spam
+- Extra message: "Yeh channel spam faila raha hai"
 
-Replace `+1234567890` with your actual phone number (include country code).
+# ╔════════════════════════════════════════════════════════════╗
+# ║                        IMPORTANT TIPS                      ║
+# ╚════════════════════════════════════════════════════════════╝
 
-### Reporting a Channel
+• Pehle kam se kam 1–2 accounts add kar lo (-an se)
+• Zyada reports (10000+) ek baar mein mat karna — flood wait ya ban ho jayega
+• Har report ke beech 1–2 second wait hota hai code mein
+• Yeh tool sirf educational/testing ke liye hai
+• Real mein mass report karna Telegram ke rules ke khilaaf hai
 
-```bash
-python reper.py -r 100 -t channelname -m spam
-```
+# ╔════════════════════════════════════════════════════════════╗
+# ║                     FROM THE DEVELOPER                     ║
+# ╚════════════════════════════════════════════════════════════╝
 
-**Parameters:**
-- `-r, --run`: Number of reports to send
-- `-t, --target`: Target channel username (without @)
-- `-m, --mode`: Report reason (see available reasons below)
+"Code is poetry, but poetry written in bugs and coffee."  
+— Smarty MS
 
-### Available Report Reasons
+Stay curious. Keep building. Never stop learning.  
+Peace out ✌️
 
-```bash
-python reper.py -re
-```
-
-**Supported reasons:**
-- `spam` - Spam content
-- `fake_account` - Fake account/impersonation
-- `violence` - Violent content
-- `child_abuse` - Child abuse content
-- `pornography` - Pornographic content
-- `geoirrelevant` - Geographically irrelevant content
-
-### Help
-
-```bash
-python reper.py -h
-```
-
-## 🔧 Command Line Options
-
-| Option | Long Form | Description | Example |
-|--------|-----------|-------------|---------|
-| `-an` | `--add-number` | Add a new account | `-an +1234567890` |
-| `-r` | `--run` | Number of reports to send | `-r 50` |
-| `-t` | `--target` | Target channel (without @) | `-t spamchannel` |
-| `-m` | `--mode` | Report reason | `-m spam` |
-| `-re` | `--reasons` | Show available reasons | `-re` |
-| `-h` | `--help` | Show help message | `-h` |
-
-## 📁 Project Structure
-
-```
-TelReper/
-├── reper.py          # Main application file
-├── sessions/         # Directory for session files (auto-created)
-│   ├── Ac1.session   # Session file for account 1
-│   ├── Ac2.session   # Session file for account 2
-│   └── ...
-└── README.md         # This file
-```
-
-## 🔒 Security Notes
-
-- Session files contain sensitive authentication data - keep them secure
-- Never share your session files or API credentials
-- The tool stores sessions locally in the `sessions/` directory
-- Each account gets its own session file (Ac1.session, Ac2.session, etc.)
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-**"The phoneNumber was invalid!"**
-- Ensure you include the country code (e.g., +1 for US)
-- Use the format: +[country_code][phone_number]
-
-**"The link of channel was invalid!"**
-- Make sure the channel username is correct
-- Don't include the @ symbol
-- Ensure the channel exists and is public
-
-**Connection errors**
-- Check your internet connection
-- Telegram servers might be temporarily unavailable
-- Try again after a few minutes
-
-### Getting Help
-
-If you encounter issues:
-1. Check the error message carefully
-2. Ensure all requirements are installed
-3. Verify your API credentials are correct
-4. Make sure you have at least one account added
-
-## 🔄 Updates
-
-This tool is compatible with **Telethon 1.40.0** and uses the latest Telegram API methods. The reporting system has been updated to work with Telegram's current API structure.
-
-## 📜 License
-
-This project is provided as-is for educational and legitimate reporting purposes only. Users are responsible for complying with all applicable laws and Telegram's Terms of Service.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please ensure any contributions maintain the tool's legitimate purpose and include appropriate documentation.
-
-## ⭐ Acknowledgments
-
-- Built with [Telethon](https://github.com/LonamiWebs/Telethon) - Python Telegram client library
-- Uses [Colorama](https://github.com/tartley/colorama) for colored terminal output
-- Original concept by [@Mr3rf1](https://t.me/Mr3rf1)
-
----
-
-**Remember: Use this tool responsibly and only for legitimate reporting of Terms of Service violations.**
+https://t.me/SmartBoy_ApnaMS
