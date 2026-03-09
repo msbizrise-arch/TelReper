@@ -1,4 +1,4 @@
-# t.me/Smarty MS  <3
+# t.me/SmartBoy_ApnaMS  <3
 # Advanced Telegram Reporter - Fixed for Telethon 2026 / New Telegram API
 
 from telethon import TelegramClient, functions, types
